@@ -1,5 +1,5 @@
 nav {
-    background-color: azure;
+    background-color: rgb(252, 255, 240);
     display: flex;
     justify-content: space-between;
     justify-items: center;
@@ -7,4 +7,9 @@ nav {
 
 body {
     margin: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
 }
