@@ -1,0 +1,10 @@
+nav {
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+body {
+    margin: 0;
+}
