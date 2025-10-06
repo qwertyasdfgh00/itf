@@ -1,15 +1,136 @@
 nav {
-    background-color: rgb(252, 255, 240);
+    background-color: #E3735E;
+    color: white;
     display: flex;
+    justify-content: center;
     justify-content: space-between;
-    justify-items: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 body {
+    background-color: #ededed;
     margin: 0;
+    font-family: "Outfit", sans-serif;
 }
 
-.container{
+.header {
     display: flex;
     align-items: center;
+    padding: 20px;
+    padding-left: 200px;
+    gap: 20px;
+    line-height: 10px;
+}
+
+#head1 {
+    color: #E3735E;
+}
+
+.output {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 20px
+}
+
+.AccountOverview {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.FinancialTools {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#Block {
+    display: flex;
+    align-items: start;
+    padding: 15px;
+    margin-bottom: 10px;
+    gap: 20px;
+    background-color:white;
+    border-radius: 8px;
+    /* outline: auto;
+    outline-color: lightgray; */
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+#Detail {
+    line-height: 4px;
+}
+
+button {
+    font-family: "Outfit", sans-serif;
+    font-size: medium;
+    text-align: right;
+    color: #F9FAF4;
+    background-color: #03C04A;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+button:hover {
+  background-color: #029c3b;
+}
+
+#convert {
+    margin-left: 5px;
+}
+
+input {
+    font-family: "Outfit", sans-serif;
+    font-size: medium;
+    background-color: white;
+    border-color: lightgrey;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#curInput {
+    margin-left: 14px;
+}
+
+select {
+    font-family: "Outfit", sans-serif;
+    font-size: medium;
+    align-items: center;
+    background-color: white;
+    border-color: lightgrey;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+}
+
+#logOutput {
+    display: flex;
+    width: 1120px;
+    min-height: 125px;
+    margin: auto;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border: none;
+    border-radius: 8px;
 }
